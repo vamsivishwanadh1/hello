@@ -1,5 +1,3 @@
-x=2
-while (x<=10):
+for x in range (2,12,2):
     print('print ',x)
-    x=x+2
-print('print Goodbye!')
+print('Goodbye!')
