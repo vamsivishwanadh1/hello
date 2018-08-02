@@ -1,5 +1,5 @@
 "'Taking an input'"
-V = input()
+V = raw_input()
 VOWELS = 0
 for char in V:
     if char in "aeiou":
