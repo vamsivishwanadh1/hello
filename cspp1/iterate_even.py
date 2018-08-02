@@ -1,3 +1,4 @@
-for x in range (2,12,2):
-    print('print ',x)
+"'taking the integer x'"
+for x in range(2, 12, 2):
+    print(x)
 print('Goodbye!')
