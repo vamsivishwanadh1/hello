@@ -1,9 +1,22 @@
+"""# Exercise: square
+# Write a Python function, square, that takes in one number and returns the square of that number.
+
+# This function takes in one number and returns one number."""
+def square(x):
+    '''
+    x: int or float.
+    '''
 def main():
-    Z = input()
-    VOWELS = 0
-    for char in Z:
-        if char in 'aeiou':
-            VOWELS += 1
-    print(VOWELS)	
-if __name__ == "__main__":
-	main()
+    data = input()
+    data = float(data)
+    temp = str(data).split('.')
+    if(temp[1] == '0'):
+        print(square(int(float(str(data)))))
+    else:
+        print(square(data))
+    return x**2
+        
+
+if __name__== "__main__":
+    main()
+    
