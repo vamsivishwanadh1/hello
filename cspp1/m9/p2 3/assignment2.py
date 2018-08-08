@@ -31,4 +31,3 @@ def main():
     print(get_guessed_word(secret_word, list1))
 if __name__ == "__main__":
     main()
-
